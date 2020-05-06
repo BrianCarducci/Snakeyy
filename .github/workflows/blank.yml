@@ -34,6 +34,7 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: dist
+          path: dist
       - name: Check Current path
         run: pwd
       - name: Check Files
