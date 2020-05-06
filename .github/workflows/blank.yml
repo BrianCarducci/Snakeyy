@@ -34,6 +34,10 @@ jobs:
         uses: actions/download-artifact@master
         with:
           name: dist
+      - name: Check Current path
+        run: pwd
+      - name: Check Files
+        run: ls -a
       - name: Deploy to Firebase
         uses: w9jds/firebase-action@master
         with:
