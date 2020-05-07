@@ -11,7 +11,7 @@ export default {
         instagramAuthorize: function() {
             let data = {
                 client_id: 270736967654851,
-                redirect_uri: 'https://snakeyy-5a5bb.firebaseapp.com/#/redirected/',
+                redirect_uri: 'https://2afo5m8bll.execute-api.us-east-1.amazonaws.com/dev/hello',
                 scope: 'user_profile,user_media',
                 response_type: 'code'
             }
